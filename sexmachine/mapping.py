@@ -70,7 +70,4 @@ mappings = ((256, ["<A/>"]),
 
 
 def map_name(u):
-    for code, patterns in mappings:
-        for pattern in patterns:
-            u = u.replace(pattern.decode("utf-8"), unichr(code))
     return u
